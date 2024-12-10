@@ -3,220 +3,168 @@
 <head>
   <meta charset="utf-8">
   <title>Главная страница</title>
+  
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="styles/style.css">
+  
+  <link rel="stylesheet" href="styles/style-index.css">
 </head>
 <body>
+   
+    <!-- Шапка -->
+    <header class="page-header">
+      <nav class="navigation">
+        <section class="navigation-list">
+          <img class="page-header-logo" alt="Логотип IT Officia" src="images/logo.png" width="50" height="40"> 
+          <div class="navigation-item">
+            <a class="navigation-link" href="about.html">О нас</a>
+          </div>
+          <div class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Каталог</a>
+          </div>
+          <div class="navigation-item">
+            <a class="navigation-link" href="faq.html">Частые вопросы</a>
+          </div>
+        </section>
+        <section class="navigation-user">
+          <div class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">Корзина</span>
+            </a>
+          </div>
+          <div class="navigation-item">
+            <a class="navigation-link" href="#">Вход</a>
+          </div>
+        </section>
+      </nav>
+    </header>
 
-<!-- Шапка -->
-<header class="page-header">
-  <nav class="navigation">
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a class="navigation-link" href="about.html">О нас</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="catalog.html">Каталог</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="faq.html">Частые вопросы</a>
-      </li>
-    </ul>
-    <ul class="navigation-list navigation-user">
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Поиск</span>
-        </a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">
-          <span class="visually-hidden">Корзина</span>
-        </a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">Вход</a>
-      </li>
-    </ul>
-  </nav>
-</header>
-
-<main class="main-index">
-
-  <!--Главный заголовок -->
-  <h1 class="visually-hidden">Барбершоп «Бородинский»</h1>
-
-  <!-- Лого -->
-  <img class="logo" src="images/logo-full.svg" width="367" height="152" alt="Барбершоп «Бородинский».">
-
-  <!-- Преимущества -->
-  <section class="advantages">
-    <h2 class="visually-hidden">Преимущества</h2>
-    <ul class="advantages-list">
-      <li class="advantages-item">
-        <h3 class="advantages-title">Быстро</h3>
-        <p class="advantages-description">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
-      </li>
-      <li class="advantages-item">
-        <h3 class="advantages-title">Круто</h3>
-        <p class="advantages-description">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
-      </li>
-      <li class="advantages-item">
-        <h3 class="advantages-title">Дорого</h3>
-        <p class="advantages-description">Наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определенный статус?</p>
-      </li>
-    </ul>
-  </section>
-
-  <!-- Популярные услуги -->
-  <section class="services">
-    <h2 class="services-title">Популярные услуги</h2>
-    <ul class="services-list">
-      <li class="services-item">
-        <span class="services-name">Стрижка машинкой</span>
-        <b class="services-price">800 ₽</b>
-      </li>
-      <li class="services-item">
-        <span class="services-name">Стрижка усов </span>
-        <b class="services-price">1200 ₽</b>
-      </li>
-      <li class="services-item">
-        <span class="services-name">Груминг</span>
-        <b class="services-price">400 ₽</b>
-      </li>
-      <li class="services-item">
-        <span class="services-name">Комплексная стрижка</span>
-        <b class="services-price">2300 ₽</b>
-      </li>
-    </ul>
-    <a class="button button-all" href="#">Посмотреть все</a>
-  </section>
-
-  <!-- Фотогалерея -->
-  <section class="gallery">
-    <h2 class="gallery-title">Фотогалерея</h2>
-
-    <img class="slider-image" src="images/gallery-1.jpeg" alt="Примеры работ." width="390" height="250">
-    <button class="slider-button slider-next" type="button">
-      <span class="visually-hidden">Предыдущее фото</span>
-    </button>
-    <button class="slider-button slider-prev" type="button">
-      <span class="visually-hidden">Следующее фото</span>
-    </button>
-
-    <ol class="slider-pagination">
-      <li class="slider-pagination-item">
-        <button class="slider-pagination-button slider-pagination-button-current">
-          <span class="visually-hidden">1 фото</span>
-        </button>
-      </li>
-      <li class="slider-pagination-item">
-        <button class="slider-pagination-button" type="button">
-          <span class="visually-hidden">2 фото</span>
-        </button>
-      </li>
-      <li class="slider-pagination-item">
-        <button class="slider-pagination-button" type="button">
-          <span class="visually-hidden">3 фото</span>
-        </button>
-      </li>
-      <li class="slider-pagination-item">
-        <button class="slider-pagination-button" type="button">
-          <span class="visually-hidden">4 фото</span>
-        </button>
-      </li>
-    </ol>
-  </section>
-
-
-  <!-- Контакты -->
-  <section class="contacts">
-    <h2 class="contacts-title">Контакты</h2>
-    <h3 class="contacts-subtitle">Барбершоп «Бородинский»</h3>
-    <address class="contacts-address">
-      <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-    </address>
-    <h3 class="contacts-subtitle">Время работы</h3>
-    <ul class="contacts-schedule">
-      <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
-      <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
-    </ul>
-    <a class="button" href="#">Как проехать</a>
-    <a class="button button-feedback" href="#">Обратная связь</a>
-  </section>
-
-  <!-- Форма записи -->
-  <section class="appointment">
-    <h2 class="appointment-title">Записаться</h2>
-    <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони.</p>
-    <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-      <p class="appointment-form-date">
-            <label class="form-label" for="appointment-date">Дата</label>
-            <input type="text" id="appointment-date" name="appointment-date" placeholder="01.01.2020">
-          </p>
-      <p class="appointment-form-time">
-        <label class="form-label" for="appointment-time">Время</label>
-        <input type="text" id="appointment-time" name="appointment-time" placeholder="10:00">
-      </p>
-      <p class="appointment-form-phone">
-        <label for="appointment-phone">
-          Телефон
-        </label>
-        <input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
-      </p>
-      <p class="appointment-form-name">
-        <label for="appointment-name">
-          Ваше имя
-        </label>
-        <input class="field" type="text" id="appointment-name" name="appointment-name">
-      </p>
-      <button class="button" type="submit">Записаться</button>
-    </form>
-  </section>
-</main>
-
-<!-- Подвал -->
-<footer class="page-footer">
-  <section class="footer-contacts">
-    <h2 class="visually-hidden">Контакты</h2>
+    <main class="main-index">
+     
+      <!--Главный заголовок -->
+      <section class="heading" id="IT-Officia">
+          <img class="logo" src="images/logo.png" width="210" height="150" alt="IT Officia">
+          <img class="logo-text" src="images/logo-text.png" width="500" height="90" alt="IT Officia">
+      </section>
+      
+      <!-- Преимущества -->
+      <section class="advantages">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <div class="advantages-list">
+          <div class="advantages-item">
+            <img class="img-item" src="images/advantages/understand.png" width="90" height="90" alt="">
+            <p class="advantages-description">Тщательно вникаем в проект, прорабатываем концепцию</p>
+          </div>
+          <div class="advantages-item">
+            <img class="img-item" src="images/advantages/safety.png" width="90" height="90" alt="">
+            <p class="advantages-description">Обеспечиваем прозрачность в ценообразовании и бизнес-процессах</p>
+          </div>
+          <div class="advantages-item">
+            <img class="img-item" src="images/advantages/decision.png" width="90" height="90" alt="">
+            <p class="advantages-description">Ориентированность на результат, в приоритете решение задачи</p>
+          </div>
+          <div class="advantages-item">
+            <img class="img-item" src="images/advantages/manager.png" width="90" height="90" alt="">
+            <p class="advantages-description">Оперативно реагируем на сбои и всегда остаемся на связи</p>
+          </div>
+        </div>
+      </section>
+      
+      <div class="main-site">
+          <!-- Форма записи -->
+          <section class="appointment">
+            <div class="info">
+                <h2 class="appointment-title">Записаться на консультацию</h2>
+                <p class="form-label info">(Укажите желаемую дату и время, и мы свяжемся с вами)</p>
+            </div>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+              <section class=fill_data>
+                  <div class="time_and_date">
+                      <p class="appointment-form-date">
+                        <label class="form-label" for="appointment-date">Дата</label>
+                        <input type="date" id="appointment-date" name="appointment-date">
+                      </p>
+                      <p class="appointment-form-time">
+                        <label class="form-label" for="appointment-time">Время</label>
+                        <input type="time" id="appointment-time" name="appointment-time">
+                      </p>
+                  </div>
+                  <p class="appointment-form-phone">
+                    <label class="form-label" for="appointment-phone">Телефон</label>
+                    <input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
+                  </p>
+                  <p class="appointment-form-name">
+                    <label class="form-label" for="appointment-name">Ваше имя</label>
+                    <input class="field" type="text" id="appointment-name" name="appointment-name">
+                  </p>
+              </section>
+              <button class="button_form" type="submit">Записаться</button>
+            </form>
+          </section>
+      
+          <!-- Согласие на рекламу -->
+          <section class="newsletter">
+            <h3 class="page-footer-title">Получайте лучшие предложения</h3>
+            <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="newsletter-email">Email</label>
+                  <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+              <button class="button newsletter-button" type="submit">
+                <span class="visually-hidden">Отправить</span>
+              </button>
+            </form>
+          </section>
     
-    <img class="footer-contacts-logo" src="images/logo-footer.svg" alt="Логотип Барбершоп «Бородинский»." width="187" height="24">
+        <!-- Социальные сети -->
+        <section class="social">
+            <h2 class="page-title">Мы в соц. сетях</h2>
+            <section class="social-list">
+              <div class="social-item">
+                <a class="button" href="#">
+                  <img src="images/social/twiter.png" width="50" height="50" alt="">
+                  <span class="visually-hidden">Твиттер</span>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="button" href="#">
+                  <img src="images/social/vk.png" width="50" height="50" alt="">
+                  <span class="visually-hidden">ВКонтакте</span>
+                </a>
+              </div>
+              <div class="social-item">
+                <a class="button" href="#">
+                  <img src="images/social/instagram.png" width="50" height="50" alt="">
+                  <span class="visually-hidden">Инстаграм</span>
+                </a>
+              </div>
+            </section>
+          </section>
+        </div>
+    </main>
     
-    <address class="footer-contacts-address">
-      <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-      <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-    </address>
-    <a class="footer-contacts-map-link" href="#">Как нас найти?</a>
-  </section>
-  <section class="newsletter">
-    <h2 class="page-footer-title">Получайте лучшие предложения</h2>
-    <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-      <label for="newsletter-email">Email</label>
-          <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
-      <button class="button newsletter-button" type="submit">
-        <span class="visually-hidden">Отправить</span>
-      </button>
-    </form>
-  </section>
-  <section class="footer-social">
-    <h2 class="page-footer-title">Давайте дружить</h2>
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Твиттер</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">ВКонтакте</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Инстаграм</span>
-        </a>
-      </li>
-    </ul>
-    <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-  </section>
-</footer>
+    <!-- Подвал -->
+    <footer class="page-footer">
+     
+      <!-- Контакты -->
+      <section class="contacts">
+        <h2 class="contacts-title">Контакты</h2>
+        <section class="footer-info">
+            <div class="worktime-address">
+                <address class="contacts-address">
+                  <p class="contacts-address-text">Москва, улица Рождественка, 23с2/5</p>
+                  <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+                </address>
+                <h3 class="contacts-subtitle">Время работы</h3>
+                <ul class="contacts-schedule">
+                  <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
+                  <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
+                </ul>
+            </div>
+            <p class="authorship">© 2024 KVoVaS</p>
+            <a class=logo-footer-href href="#IT-Officia">
+                <img class="logo-footer" src="images/logo-footer.png" width="350" height="50" alt="IT Officia">
+            </a>
+        </section>
+      </section>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,160 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../images/background.gif);
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+}
+
+.advantages {
+    padding: 30px 0;
+    background-color: #1d1d1f;
+    width: auto;
+}
+.advantages .visually-hidden {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.advantages .advantages-description {
+    width: 140px;
+    color: #6fa4ab;
+    font-size: 15px;
+    margin-left: 110px;
+    float: center;
+}
+.advantages .advantages-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.advantages .advantages-item {
+    margin: 0 auto;
+}
+.advantages .img-item {
+    float: left;
+}
+
+.main-site {
+    width: 100%;
+    display: flex;
+    min-height: 250px;
+    padding: 30px 0;
+    align-items: center;
+}
+
+.newsletter {
+    margin-left: auto;
+    align-self: center;
+    border: 5px solid #86b4ba;
+    padding: 20px;
+    text-align: center
+}
+.newsletter h3 {
+    color: #3ea9b8;
+    margin-bottom: 15px;
+}
+.newsletter label {
+    color: #6fa4ab;
+    margin-right: 5px;
+}
+.newsletter button {
+    margin-left: 5px;
+    width: 100px;
+    height: 20px;
+    background-color: #424242;
+    color: #3ea9b8;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+.newsletter button:hover {
+    color: #6eeeff;
+    border: 1px solid #68d9e8;
+    transition-duration: 1.2s;
+}
+
+.social {
+    margin-left: auto;
+    margin-right: 20px;
+    align-self: center;
+    border: 5px solid #86b4ba;
+    padding: 20px;
+    text-align: center;
+}
+.social .page-title {
+    margin-bottom: 20px;
+}
+.social a {
+    width: 105px;
+    text-decoration: none;
+    color: #3ea9b8;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.social a:hover {
+    color: #6eeeff;
+    transition-duration: 0.6s;
+}
+.social .social-list {
+    display: flex;
+}
+
+.appointment {
+    border: 5px solid #86b4ba;
+    width: 610px;
+    height: 190px;
+    margin-left: 20px;
+}
+.appointment .appointment-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.appointment .form-label {
+    color: #6fa4ab;
+    margin-right: 5px;
+}
+.appointment .info {
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.appointment p.info {
+    color: #48696e;
+}
+.appointment .appointment-form {
+    margin-left: 20px;
+    display: flex;
+    width: 570px;
+}
+.appointment .appointment-form .time_and_date {
+    display: flex;
+}
+.appointment .appointment-form .appointment-form-date {
+    margin-right: 15px;
+}
+.appointment .button_form {
+    margin-left: 60px;
+    align-self: center;
+    height: 40px;
+    width: 160px;
+    background-color: #424242;
+    color: #3ea9b8;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.appointment .button_form:hover {
+    color: #6eeeff;
+    border: 1px solid #68d9e8;
+    transition-duration: 1.2s;
+}
