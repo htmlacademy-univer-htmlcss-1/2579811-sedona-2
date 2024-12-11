@@ -1,3 +1,8 @@
+header .page-header-logo-href{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 .catalog-products {
     margin-top: 130px;
     text-align: center;
@@ -27,4 +32,11 @@
 .catalog-products .product-list .product-card .product-card-button:hover {
     color: #6eeeff;
     transition-duration: 0.6s;
+}
+
+footer .logo-footer{
+    margin-left: auto;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }

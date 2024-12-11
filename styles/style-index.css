@@ -1,3 +1,9 @@
+header .page-header-logo{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 6px;
+}
+
 .heading {
     display: flex;
     justify-content: center;
@@ -157,4 +163,11 @@
     color: #6eeeff;
     border: 1px solid #68d9e8;
     transition-duration: 1.2s;
+}
+
+footer .logo-footer-href{
+    margin-left: auto;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }

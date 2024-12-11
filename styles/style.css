@@ -27,11 +27,6 @@ header {
     top: 0;
     z-index: 1000;
 }
-header .page-header-logo {
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
 
 body {
     font-family: "PT Sans", sans-serif;
@@ -110,11 +105,4 @@ footer .authorship {
     align-self: flex-end;
     font-size: 15px;
     color: #6fa4ab;
-}
-footer .logo-footer-href,
-footer .logo-footer {
-    margin-left: auto;
-    align-self: center;
-    margin-bottom: 50px;
-    margin-right: 20px;
 }
