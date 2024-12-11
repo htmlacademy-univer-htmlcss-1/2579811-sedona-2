@@ -44,6 +44,26 @@ header .page-header-logo{
     float: left;
 }
 
+.short_info {
+    width: 90%;
+    margin: 50px auto;
+    height: auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.short_info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.short_info .info {
+    width: 88%;
+    margin: auto;
+}
+.short_info .info p{
+    color: #48696e;
+    font-size: 25px
+}
+
 .main-site {
     width: 100%;
     display: flex;
