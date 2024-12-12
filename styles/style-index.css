@@ -148,7 +148,7 @@ header .page-header-logo{
 .appointment {
     border: 5px solid #86b4ba;
     width: 610px;
-    height: 190px;
+    height: 230px;
     margin-left: 20px;
 }
 .appointment .appointment-title {
@@ -156,7 +156,7 @@ header .page-header-logo{
     margin-left: 20px;
     margin-bottom: 10px;
 }
-.appointment .form-label {
+.appointment .fill_data{
     color: #6fa4ab;
     margin-right: 5px;
 }
@@ -180,6 +180,13 @@ header .page-header-logo{
 }
 .appointment .appointment-form .appointment-form-date {
     margin-right: 15px;
+}
+.appointment .appointment-form .appointment-form-phone input {
+    margin-left: 10px;
+    width: 219px;
+}
+.appointment .appointment-form .appointment-form-name input {
+    width: 219px;
 }
 .appointment .button_form {
     margin-left: 60px;

@@ -40,6 +40,15 @@ h2 {
     font-size: 45px;
 }
 
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+input::placeholder {
+    color: #212529;
+    opacity: 0.4;
+}
+
 nav {
     width: 100%;
     display: flex;
