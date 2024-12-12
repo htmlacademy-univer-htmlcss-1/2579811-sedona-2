@@ -29,6 +29,7 @@ header .page-header-logo-href{
     text-decoration: underline;
     color: #3ea9b8;
     cursor: pointer;
+    transition-duration: 0.35s;
 }
 .catalog-products .product-list .product-card .product-card-button:hover {
     color: #6eeeff;

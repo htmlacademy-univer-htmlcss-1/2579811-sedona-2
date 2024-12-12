@@ -68,6 +68,7 @@ header .page-header-logo{
     color: #3ea9b8;
     cursor: pointer;
     text-decoration: underline;
+    transition-duration: 0.35s;
 }
 .short_info .info a:hover {
     color: #6eeeff;
@@ -106,6 +107,7 @@ header .page-header-logo{
     border-radius: 5px;
     border: 0;
     cursor: pointer;
+    transition-duration: 0.65s;
 }
 .newsletter button:hover {
     color: #6eeeff;
@@ -122,7 +124,7 @@ header .page-header-logo{
     text-align: center;
 }
 .social .page-title {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .social a {
     width: 105px;
@@ -133,6 +135,7 @@ header .page-header-logo{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition-duration: 0.35s;
 }
 .social a:hover {
     color: #6eeeff;
@@ -188,6 +191,7 @@ header .page-header-logo{
     border-radius: 10px;
     border: 0;
     cursor: pointer;
+    transition-duration: 0.65s;
 }
 .appointment .button_form:hover {
     color: #6eeeff;

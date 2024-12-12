@@ -54,6 +54,16 @@ nav .navigation-user {
     align-items: center;
     margin-right: 20px;
 }
+nav .navigation-user .img-svg-active {
+    position: absolute;
+    right: 85px;
+    opacity: 0;
+    transition-duration: 0.35s;
+}
+nav .navigation-user .img-svg-active:hover {
+    opacity: 1;
+    transition-duration: 0.6s;
+}
 nav .navigation-item {
     margin: 0 10px;
 }
@@ -104,6 +114,7 @@ footer .worktime-address a.contacts-phone {
     cursor: pointer;
     font-style: italic;
     text-decoration: underline;
+    transition-duration: 0.35s;
 }
 footer .worktime-address a.contacts-phone:hover {
     color: #6eeeff;
