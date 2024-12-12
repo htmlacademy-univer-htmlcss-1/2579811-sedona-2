@@ -61,14 +61,23 @@ nav a {
     text-decoration: none;
     color: #3ea9b8;
     cursor: pointer;
+    transition: all .35s ease-in-out;
 }
 nav a:hover {
     color: #6eeeff;
     transition-duration: 0.6s;
 }
 
+nav .target {
+    position: absolute;
+    border-bottom: 3px solid transparent;
+    z-index: -1;
+    transform: translateX(-60px);
+    transition: all .2s ease-in-out;
+}
+
 footer {
-    height: 200px;
+    height: 210px;
     width: auto;
     background-color: #1d1d1f;
     padding: 10px;
@@ -99,6 +108,12 @@ footer .worktime-address a.contacts-phone {
 footer .worktime-address a.contacts-phone:hover {
     color: #6eeeff;
     transition-duration: 0.6s;
+}
+footer .worktime-address .contacts-subtitle {
+    margin-top: 15px;
+}
+footer .worktime-address .contacts-schedule-item {
+    margin-left: 15px;
 }
 footer .authorship {
     margin-left: auto;
