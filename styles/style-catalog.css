@@ -13,7 +13,9 @@ header .page-header-logo-href{
 .catalog-products .product-list {
     width: 95%;
     margin: 0 auto;
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 500px 40px 500px 40px 500px;
     grid-template-columns: 500px 500px 500px;
     gap: 40px
 }
@@ -29,16 +31,22 @@ header .page-header-logo-href{
     text-decoration: underline;
     color: #3ea9b8;
     cursor: pointer;
-    transition-duration: 0.35s;
+    -webkit-transition: 0.35s;
+    -o-transition: 0.35s;
+    transition: 0.35s;
 }
 .catalog-products .product-list .product-card .product-card-button:hover {
     color: #6eeeff;
-    transition-duration: 0.6s;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
 }
 
 footer .logo-footer{
     margin-left: auto;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 20px;
     margin-right: 20px;
 }

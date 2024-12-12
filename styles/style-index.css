@@ -5,9 +5,15 @@ header .page-header-logo{
 }
 
 .heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     margin-top: 50px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -34,8 +40,12 @@ header .page-header-logo{
 }
 .advantages .advantages-list {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 .advantages .advantages-item {
     margin: 0 auto;
@@ -68,24 +78,34 @@ header .page-header-logo{
     color: #3ea9b8;
     cursor: pointer;
     text-decoration: underline;
-    transition-duration: 0.35s;
+    -webkit-transition-duration: 0.35s;
+         -o-transition-duration: 0.35s;
+            transition-duration: 0.35s;
 }
 .short_info .info a:hover {
     color: #6eeeff;
-    transition-duration: 0.6s;
+    -webkit-transition-duration: 0.6s;
+         -o-transition-duration: 0.6s;
+            transition-duration: 0.6s;
 }
 
 .main-site {
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     min-height: 250px;
     padding: 30px 0;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .newsletter {
     margin-left: auto;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border: 5px solid #86b4ba;
     padding: 20px;
     text-align: center
@@ -107,18 +127,24 @@ header .page-header-logo{
     border-radius: 5px;
     border: 0;
     cursor: pointer;
-    transition-duration: 0.65s;
+    -webkit-transition: 0.65s;
+    -o-transition: 0.65s;
+    transition: 0.65s;
 }
 .newsletter button:hover {
     color: #6eeeff;
     border: 1px solid #68d9e8;
-    transition-duration: 1.2s;
+    -webkit-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
 }
 
 .social {
     margin-left: auto;
     margin-right: 20px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     border: 5px solid #86b4ba;
     padding: 20px;
     text-align: center;
@@ -131,17 +157,32 @@ header .page-header-logo{
     text-decoration: none;
     color: #3ea9b8;
     cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition-duration: 0.35s;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-transition: 0.35s;
+    -o-transition: 0.35s;
+    transition: 0.35s;
 }
 .social a:hover {
     color: #6eeeff;
-    transition-duration: 0.6s;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
 }
 .social .social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -162,9 +203,16 @@ header .page-header-logo{
 }
 .appointment .info {
     width: 590px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 10px;
 }
 .appointment p.info {
@@ -172,10 +220,14 @@ header .page-header-logo{
 }
 .appointment .appointment-form {
     margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 570px;
 }
 .appointment .appointment-form .time_and_date {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .appointment .appointment-form .appointment-form-date {
@@ -190,7 +242,9 @@ header .page-header-logo{
 }
 .appointment .button_form {
     margin-left: 60px;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     height: 40px;
     width: 160px;
     background-color: #424242;
@@ -198,17 +252,23 @@ header .page-header-logo{
     border-radius: 10px;
     border: 0;
     cursor: pointer;
-    transition-duration: 0.65s;
+    -webkit-transition: 0.65s;
+    -o-transition: 0.65s;
+    transition: 0.65s;
 }
 .appointment .button_form:hover {
     color: #6eeeff;
     border: 1px solid #68d9e8;
-    transition-duration: 1.2s;
+    -webkit-transition: 1.2s;
+    -o-transition: 1.2s;
+    transition: 1.2s;
 }
 
 footer .logo-footer-href{
     margin-left: auto;
-    align-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 20px;
     margin-right: 20px;
 }

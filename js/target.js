@@ -12,10 +12,10 @@
         }
       }
 
-      const width = this.getBoundingClientRect().width;
-      const height = this.getBoundingClientRect().height;
-      const left = this.getBoundingClientRect().left + window.pageXOffset;
-      const top = this.getBoundingClientRect().top + window.pageYOffset;
+      const width = this.offsetWidth; 
+      const height = this.offsetHeight;
+      const left = this.offsetLeft; 
+      const top = this.offsetTop; 
 
       target.style.width = `${width}px`;
       target.style.height = `${height}px`;
