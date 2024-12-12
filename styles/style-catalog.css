@@ -11,12 +11,13 @@ header .page-header-logo-href{
     margin-bottom: 40px;
 }
 .catalog-products .product-list {
-    width: 100%;
-    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    gap: 40px
 }
-.catalog-products .product-list .product-card {
-    margin: 20px auto;
-}
+
 .catalog-products .product-list .product-card .product-card-title {
     color: #3ea9b8;
 }
