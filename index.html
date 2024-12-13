@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="styles/style.css">
   
   <link rel="stylesheet" href="styles/style-index.css">
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
    
@@ -91,35 +93,37 @@
       
       <div class="main-site">
           <!-- Форма записи -->
-          <section class="appointment">
-            <div class="info">
-                <h2 class="appointment-title">Записаться на консультацию</h2>
-                <p class="form-label info">(Укажите желаемую дату и время, и мы свяжемся с вами)</p>
-            </div>
-            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-              <section class=fill_data>
-                  <div class="time_and_date">
-                      <p class="appointment-form-date">
-                        <label class="form-label" for="appointment-date">Дата</label>
-                        <input type="date" id="appointment-date" name="appointment-date">
+          <high>
+              <section id="appointment" class="appointment">
+                <div class="info">
+                    <h2 class="appointment-title">Записаться на консультацию</h2>
+                    <p class="form-label info">(Укажите желаемую дату и время, и мы свяжемся с вами)</p>
+                </div>
+                <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+                  <section class=fill_data>
+                      <div class="time_and_date">
+                          <p class="appointment-form-date">
+                            <label class="form-label" for="appointment-date">Дата</label>
+                            <input type="date" id="appointment-date" name="appointment-date">
+                          </p>
+                          <p class="appointment-form-time">
+                            <label class="form-label" for="appointment-time">Время</label>
+                            <input type="time" id="appointment-time" name="appointment-time">
+                          </p>
+                      </div>
+                      <p class="appointment-form-phone">
+                        <label class="form-label" for="appointment-phone">Телефон</label>
+                        <input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
                       </p>
-                      <p class="appointment-form-time">
-                        <label class="form-label" for="appointment-time">Время</label>
-                        <input type="time" id="appointment-time" name="appointment-time">
+                      <p class="appointment-form-name">
+                        <label class="form-label" for="appointment-name">Ваше имя</label>
+                        <input class="field" type="text" id="appointment-name" name="appointment-name">
                       </p>
-                  </div>
-                  <p class="appointment-form-phone">
-                    <label class="form-label" for="appointment-phone">Телефон</label>
-                    <input class="field" type="text" id="appointment-phone" name="appointment-phone" placeholder="+7 800 000-00-00">
-                  </p>
-                  <p class="appointment-form-name">
-                    <label class="form-label" for="appointment-name">Ваше имя</label>
-                    <input class="field" type="text" id="appointment-name" name="appointment-name">
-                  </p>
+                  </section>
+                  <button class="button_form" type="submit">Записаться</button>
+                </form>
               </section>
-              <button class="button_form" type="submit">Записаться</button>
-            </form>
-          </section>
+          </high>
       
           <!-- Согласие на рекламу -->
           <section class="newsletter">
@@ -163,30 +167,29 @@
     <!-- Подвал -->
     <footer class="page-footer">
      
-      <!-- Контакты -->
-      <section class="contacts">
+    <!-- Контакты -->
+    <section class="contacts">
         <h2 class="contacts-title">Контакты</h2>
-        <section class="footer-info">
-            <div class="worktime-address">
-                <address class="contacts-address">
-                  <p class="contacts-address-text">Москва, улица Рождественка, 23с2/5</p>
-                  <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
-                </address>
-                <h3 class="contacts-subtitle">Время работы</h3>
-                <ul class="contacts-schedule">
-                  <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
-                  <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
-                </ul>
-            </div>
-            <p class="authorship">© 2024 KVoVaS</p>
-            <a class="logo-footer-href" href="#IT-Officia">
+            <section class="footer-info">
+                <div class="worktime-address">
+                    <address class="contacts-address">
+                        <p class="contacts-address-text">Москва, улица Рождественка, 23с2/5</p>
+                        <a class="contacts-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+                    </address>
+                    <h3 class="contacts-subtitle">Время работы</h3>
+                    <ul class="contacts-schedule">
+                        <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
+                        <li class="contacts-schedule-item">сб—вс: с 10:00 до 19:00</li>
+                    </ul>
+                </div>
+                <p class="authorship">© 2024 KVoVaS</p>
                 <img class="logo-footer" src="images/logo-footer.png" width="350" height="50" alt="IT Officia">
-            </a>
+            </section>
         </section>
-      </section>
     </footer>
     
     <!-- Подключение скриптов JS -->
     <script src="js/target.js"></script>
+    <script src="js/href_highlightning.js"></script>
 </body>
 </html>

@@ -9,8 +9,8 @@ header .page-header-logo-href{
     font-size: 20px;
 }
 .info .info-title {
-    margin-top: 130px;
-    margin-bottom: 80px;
+    margin-top: 150px;
+    margin-bottom: 60px;
 }
 
 .info .card-company {
@@ -55,14 +55,4 @@ header .page-header-logo-href{
     width: 40%;
     border: 5px solid #1d1d1f;
     padding: 20px;
-}
-
-
-footer .logo-footer{
-    margin-left: auto;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    margin-bottom: 20px;
-    margin-right: 20px;
 }

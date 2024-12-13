@@ -8,7 +8,8 @@ header .page-header-logo-href{
     text-align: center;
 }
 .catalog-products .visually-hidden {
-    margin-bottom: 40px;
+    margin-top: 150px;
+    margin-bottom: 60px;
 }
 .catalog-products .product-list {
     width: 95%;
@@ -40,13 +41,4 @@ header .page-header-logo-href{
     -webkit-transition: 0.6s;
     -o-transition: 0.6s;
     transition: 0.6s;
-}
-
-footer .logo-footer{
-    margin-left: auto;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    margin-bottom: 20px;
-    margin-right: 20px;
 }
